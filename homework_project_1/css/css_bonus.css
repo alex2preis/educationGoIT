@@ -1,0 +1,66 @@
+body{
+	background-color: #000;
+	
+}
+.container{
+  background-image: url(../img/background_bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+
+}
+.wrapper{
+	width: 815px;
+	margin: 0 auto;
+	font-family: Tahoma sans-serif;
+	color: #e6e6e6;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.logo{
+	float: left;
+	position: relative;
+	padding-top: 60px;
+}
+.descript_logo{
+	font-size: 12px;
+	position: absolute;
+	bottom: 20px;
+	left: 75px;
+}
+div.contacts{
+	float: right;
+	padding-top: 150px;
+}
+.contacts p{
+	font-size: 10px;
+}
+.contacts p:first-child{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+section, footer{
+	clear: both;
+}
+section article{
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 50px;
+	width: 262px;
+}
+.countries:nth-child(3n){
+	margin-right: 0;
+}
+.countries .title{
+	font-size: 15px;
+	text-align: center;
+}
+footer{
+	padding-top: 185px;
+	padding-bottom: 30px;
+}
+.main_footer .copy{
+	font-size: 12px;
+	text-align: center;
+}
