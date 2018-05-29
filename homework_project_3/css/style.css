@@ -1,0 +1,158 @@
+
+main{
+	background-image: url(../img/bg_color.jpg);
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+}
+header:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+.reg, .ofert, .menu{
+	float: right;
+}
+div.reg{
+	color: #fff;
+	padding: 17px 10px;
+	margin-right: 20px;
+	background: linear-gradient(to bottom, #51b1dc, #2e7ac4);
+}
+div.reg a{
+	color: #fff;
+}
+div.ofert{
+	color: #fff;
+	padding: 10px 15px;
+}
+div.ofert img{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav .main_nav{
+	padding-right: 10px;
+}
+nav .main_nav li{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 15px;
+	padding-top: 13px;
+	padding-bottom: 17px; 
+}
+nav .main_nav li a{
+	color: #60b5ed;
+	text-decoration: none;
+}
+nav .main_nav li:last-child{
+	padding-right: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-right: 1px solid #60b5ed;
+}
+nav .main_nav li.active{
+	background: #4eabda;
+	padding-top: 15px;
+}
+nav .main_nav li.active a{
+	color: #fff;
+}
+.wrapper{
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+	min-height: 1028px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+.form h1{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+.facebook_button{
+	margin: 35px 140px;
+	background: linear-gradient(to bottom, #3d5699, #2c4379);
+	border-radius: 3px;
+}
+.facebook_button div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.facebook_button .point_f{
+	padding: 5px 15px;
+	border-right: 1px solid black;
+	-webkit-box-shadow: 10px -6px 3px -7px rgba(190,191,187,1);
+  -moz-box-shadow: 5px -6px 3px -7px rgba(190,191,187,1);
+  box-shadow: 5px -6px 3px -7px rgba(190,191,187,1);
+}
+
+.facebook_button .log_facebook a{
+	color: #fff;
+	text-decoration: none;
+	padding: 9px 25px 8px 30px;
+	border-left: 1px solid #9f9f9f;
+	margin-left: -4px; 
+}
+.facebook_button .log_facebook a span{
+	font-weight: bold;
+}
+.facebook_button .log_facebook img{
+	padding-left: 10px;
+}
+.form ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+.line{
+	width: 120px;
+	height: 1px;
+	background-color: #666666;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+.ou{
+	margin-top: -8px;
+	margin-bottom: 30px;
+	color: #999999;
+}
+input{
+	width: 240px;
+	background: #0f0f0f;
+	color: #fff;
+	margin-bottom: 15px;
+	padding: 10px 20px;
+	border: none;
+}
+input:focus{
+	background: linear-gradient(to bottom, #1b4d7f, #1b5288);
+	-webkit-box-shadow: 3px 1px 17px 4px rgba(71,120,146,1);
+	-moz-box-shadow: 3px 1px 17px 4px rgba(71,120,146,1);
+	box-shadow: 3px 1px 17px 4px rgba(71,120,146,1);
+}
+.check{
+	color: #fff;
+}
+input[type=checkbox]{
+	width: 10px;
+	padding: 10px;
+	margin: 0 10px 20px -45px;
+}
+input[type=submit]{
+	background: linear-gradient(to top, #2e7ac4, #4eabda);
+	width: 155px;
+	padding: 10px;
+	border-radius: 3px;
+}
+.policy{
+	color: #fff;
+	font-size: 11px;
+	line-height: 16px;
+	width: 270px;
+	margin: 15px auto;
+}
